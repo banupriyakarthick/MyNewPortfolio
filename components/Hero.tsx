@@ -45,11 +45,11 @@ export default function Hero() {
         >
           <div className="relative w-full h-[400px]">
             <Image
-              src="/placeholder.svg"
-              alt="John Doe"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg shadow-lg"
+              src="https://picsum.photos/400/400"
+              alt="Banupriya C"
+              width={400}
+              height={400}
+              className="rounded-lg shadow-lg object-cover"
             />
           </div>
         </motion.div>

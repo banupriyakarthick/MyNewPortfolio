@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Banupriya C - Full Stack Developer",
-  description: "Portfolio of Banupriya C, a Full Stack Developer specializing in building scalable & elegant solutions.",
+  description:
+    "Portfolio of Banupriya C, a Full Stack Developer specializing in building scalable & elegant solutions.",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

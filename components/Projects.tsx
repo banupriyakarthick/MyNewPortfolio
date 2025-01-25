@@ -10,7 +10,7 @@ const projects = [
     title: "Dhofar Global",
     description:
       "Developed and maintained the Dhofar Global e-commerce platform using React and PHP Laravel, enhancing the site's performance and user experience.",
-    image: "/placeholder.svg",
+    image: "https://picsum.photos/300/200?random=1",
     technologies: ["React", "PHP Laravel", "PostgreSQL", "MySQL", "RESTful APIs"],
     duration: "Jan 2024 - Present",
     achievements: [
@@ -24,7 +24,7 @@ const projects = [
     title: "Careerx",
     description:
       "Built a robust platform using Node.js, Angular 7, and MySQL for grocery and food delivery with real-time order tracking.",
-    image: "/placeholder.svg",
+    image: "https://picsum.photos/300/200?random=2",
     technologies: ["Node.js", "Angular 7", "MySQL"],
     duration: "Dec 2022 - Dec 2023",
     achievements: ["Improved delivery efficiency, increasing customer retention."],
@@ -34,7 +34,7 @@ const projects = [
     title: "Choose Cubby",
     description:
       "Developed a scalable luggage storage platform for travelers using Node.js, Angular 7, and MySQL with booking, payment, and map-based navigation.",
-    image: "/placeholder.svg",
+    image: "https://picsum.photos/300/200?random=3",
     technologies: ["Node.js", "Angular 7", "MySQL"],
     duration: "Jan 2021 - Dec 2021",
     achievements: ["Successfully implemented a feature-rich system for luggage storage bookings."],
@@ -67,10 +67,9 @@ export default function Projects() {
                 <div className="md:flex-shrink-0">
                   <Image
                     src={project.image || "/placeholder.svg"}
-                    alt={project.title}
+                    alt={`${project.title} project`}
                     width={300}
                     height={200}
-                    objectFit="cover"
                     className="h-48 w-full object-cover md:w-48"
                   />
                 </div>

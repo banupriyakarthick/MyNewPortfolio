@@ -30,7 +30,7 @@ export default function Header() {
           href="/"
           className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-500 text-transparent bg-clip-text"
         >
-          John Doe
+          Banupriya C
         </Link>
         <div className="hidden md:flex space-x-4 items-center">
           {navItems.map((item) => (
